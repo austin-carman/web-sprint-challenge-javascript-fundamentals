@@ -29,15 +29,15 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
-Both '.forEach' and '.map' are advanced array methods that loop through an array. They are both higher order functions that require a callback which is normally written inline. '.forEach', however, manipulates the original array as it does not return a new array while '.map' does return a new array and does not manipulate the original array. '.forEach' is very similar to a for loop except that it has to loop through every item in the array and will return all the information associated with each item that passes the true statement tested for. '.map' is good for converting/manipulating data and returning a new array with just the data in the items that was manipulated.
+- Both '.forEach' and '.map' are advanced array methods that loop through an array. They are both higher order functions that require a callback which is normally written inline. '.forEach', however, manipulates the original array as it does not return a new array while '.map' does return a new array and does not manipulate the original array. '.forEach' is very similar to a for loop except that it has to loop through every item in the array and will return all the information associated with each item that passes the true statement tested for. '.map' is good for converting/manipulating data and returning a new array with just the data in the items that was manipulated.
 
 2. Explain the difference between a callback and a higher order function.
 
-a higher order function receives another function as a parameter while a callback function is passed into another function as an argument
+- a higher order function receives another function as a parameter while a callback function is passed into another function as an argument
 
 3. What is closure?
 
-closure is when a function reaches outside of it's local scope to access variables defined in a higher scope/outer function. It has a 3-chain scope: local, outer function, and global. 
+- closure is when a function reaches outside of it's local scope to access variables defined in a higher scope/outer function. It has a 3-chain scope: local, outer function, and global. 
 
 4. Describe the four rules of the 'this' keyword.
 
@@ -49,7 +49,7 @@ closure is when a function reaches outside of it's local scope to access variabl
 
 5. Why do we need super() in an extended class?
 
-super() does what constructorFunctionName.call() did which is allow the child function to inherit all the key:value pairs of the parent constructor function.
+- super() does what constructorFunctionName.call() did which is allow the child function to inherit all the key:value pairs of the parent constructor function.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 

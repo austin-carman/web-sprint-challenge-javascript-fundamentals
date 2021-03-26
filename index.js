@@ -16,8 +16,9 @@ function myFunction() {
 myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
-
-
+/*
+nestedFunction can access internal because nestedFunction is a closure and has a 3-chain scope: in has access to local scope variables, outer function scope variables (such as 'internal' in this case), as well as global scope variables (just as 'external'). However, the inverse is not true - myFunction cannot reach into nestedFunction and get access to it's local variable (if one existed).
+*/
 
 
 
